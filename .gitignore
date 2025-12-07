@@ -2,3 +2,15 @@
 __pycache__/
 cutlass_library.egg-info/
 /build*
+
+# Python package build artifacts
+*.egg-info/
+VERSION.EDITABLE
+py.typed
+
+# Compiled libraries and MLIR
+python/CuTeDSL/cutlass/_mlir/
+python/CuTeDSL/lib/
+
+# PyTorch model checkpoints
+*.pt
